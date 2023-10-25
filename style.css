@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+
+  
+  
+  form label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  .comedian-card {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .comedian-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+  }
+  
+  .comedian-details {
+    flex-grow: 1;
+  }
+  
+  .comedian-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .comedian-description {
+    margin-bottom: 10px;
+  }
+  
+  .comedian-link {
+    color: #333;
+    text-decoration: underline;
+  }
+
+
+  footer{
+    background-color: #333;
+   
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+}
+.footer > div{
+    width: 223px;
+}
+footer .footer-bottom{
+    text-align: center;
+    color: white;
+    padding: 12px 0;
+}
+.instagram{
+    position: relative;
+    top: 10px;
+    width: 55px;
+    font-size: 14px;
+}
+.linkedin{
+    position: relative;
+    top: 10px;
+    width: 55px;
+    font-size: 14px;
+}
+.whatsaap{
+    position: relative;
+    top: 6px;
+    width: 74px;
+    font-size: 14px;
+}
+  
